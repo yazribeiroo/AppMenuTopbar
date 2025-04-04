@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".MenuPrincipalActivity"
+            android:exported="false" />
+        <activity
             android:name=".menu_topbar.xml"
             android:exported="false"
             android:label="@string/title_activity_menu_topbar.xml" />
