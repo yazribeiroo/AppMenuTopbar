@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Compartilhar"
+        android:icon="@drawable/baseline_offline_share"
+        android:id="@+id/mCompartilhar" />
+
+    <item android:title="Favoritar"
+        android:icon="@drawable/baseline_favorite_border"
+        android:id="@+id/mFavoritar"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Status"
+        android:icon="@drawable/baseline_blur_circular"
+        android:id="@+id/mStatus"
+       />
+
+    <item android:title="Conversas"
+        android:icon="@drawable/baseline_mark_unread_chat_alt"
+        android:id="@+id/mConversas"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:title="Dowloads"
+        android:icon="@drawable/baseline_downloading"
+        android:id="@+id/mDowloads" />
+
+
+</menu>
